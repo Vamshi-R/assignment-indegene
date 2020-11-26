@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "index1.css">
+    <style>
+        header{
+    background-color:lightgray;
+    padding:2rem;
+    /*color:skyblue;*/
+    min-height: calc(110vh - 100px);
+    display: flex;
+    flex-direction:column;
+    align-items:flex-end ;
+   /* margin:2rem;*/
+}
+
+.fas-fa-car{
+    color:skyblue;
+}
+
+.container{
+    margin:0 auto;
+    max-width:100%;
+   /* width:100px;*/
+} 
+
+.content{
+    margin:auto;
+}
+
+nav{
+    display:flex;
+    /*justify-content: space-between;*/
+    padding:1rem;
+  /*  background-color: white;*/
+   /* overflow:hidden;*/
+  /*  border:1px solid black;*/
+    /*width:100%;*/
+    margin-top:0;
+}
+
+nav ul{
+    display:flex;
+    list-style-type:none;
+    padding:0;
+    align-items: flex-end;
+}
+
+nav .logo{
+    font-size:2rem;
+}
+
+ nav li>a{
+    text-decoration:none;
+    color:lightsalmon;
+    padding:1rem;
+    font-size: 1rem;
+    font-weight:bold;
+}
+
+ nav li>a:hover{
+    background-color:black;
+    color:white;
+}
+
+.container > h1{
+    color:honeydew;
+    font-size:2rem;
+    margin:0;
+}
+
+
+.container > p{
+    color:honeydew;
+    font-size:1rem;
+    margin-bottom:1rem;
+}
+.highlight{
+    text-decoration:none;
+    color:white;
+    padding:1rem;
+    background-color:lightsalmon;
+}
+
+.highlight1{
+    text-decoration:none;
+    color:black;
+    padding:1rem;
+    background-color:honeydew;
+}
+
+/*footer{
+    /* height:100px;
+     background-color:black;
+     color:white;
+     padding:1rem;
+ }
+
+ footer ul{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    list-style-type: none;
+    padding:0;
+}
+
+footer strong{
+    color:skyblue;
+}*/
+footer{
+    background-color:black;
+    color:white;
+    padding:1rem;
+}
+
+.contain{
+    font-size: 2rem;
+    font-style:bold;
+    text-align: center;
+}
+
+footer ul{
+    display:flex;
+    align-items: center;
+    list-style-type:none;
+    justify-content: space-between;
+    padding: 0;
+}
+
+footer ul li>strong{
+    color:skyblue;
+}
+/*button{
+    background-color: rebeccapurple;
+    position:fixed;
+    border:none;
+    color:white;
+    top:20px;
+    right:20px;
+    padding:1em;/*1em or rem = 16px
+    transition:transform 0.3s ease-in-out;
+}
+
+when you click on the button for btn
+button.active{
+    transform:translateY(-100px);
+}*/
+    </style>
+</head>
+<body>
+    <header>
+        <nav class = "container">
+            <div class = "logo"><i class = "fas-fa-car">indegene</i></div>
+            <ul>
+                <li><a href="#"></a>Google</li>
+                <li><a href="#"></a>Twitter</li>
+                <li><a href="#"></a>LinkedIn</li>
+                <li><a href="#"></a>Menu</li>
+                <li><a href="#"></a>&#9776</li>
+
+            </ul>
+            <!--<button id = "btn">&#9776</button>-->
+        </nav>
+
+        <div class = "content">
+            <div class="container">
+                <h1>Enterprise Marketing and Customer Experience</h1>
+                <p>LEVERAGE DATA TO DRIVE PERSONALIZATION AT SCALE</p>
+                <a class="highlight" href="#">The Global Transition</a>
+                <a class="highlight1" href="#">Explore</a>
+
+            </div>
+        </div>
+    </header>
+
+   <footer>
+       <div class = "contain">NEWS LETTER</div>
+        <ul>
+            <li>
+                <strong>Contact Us</strong>
+            </li>
+            <li>
+                <strong>Privacy Policy</strong>
+            </li>
+            <li>
+                <strong>CSR Policy</strong>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
